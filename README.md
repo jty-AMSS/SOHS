@@ -23,7 +23,7 @@ Example 2: verify Motzkin polynomial is nonnegative on [-2,2]*[-2,2], Matlab cod
 
 Other Examples:
 
-MAX_SATExample.m  for example of MAX-3SAT
+MAX_SATExample.m  for example of MAX-2SAT
 
 sphere_norm_p.m for computing the SOHS of 1-x^10-y^10 {(x,y):x^2+y^2=1} or 1-x^10-y^10-z^10 on {(x,y,z):x^2+y^2+z^1=1}
 
