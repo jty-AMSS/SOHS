@@ -1,12 +1,10 @@
 # FSOS&SOHS
 
-The new version of computation of FSOS and SOHS, which can compute function on every finite abelian group and easy to use.
-
-and it is able to computing SOHS via FSOS on finite abelian groups.
+The new version of computation of FSOS and SOHS, which can compute function on every finite abelian group and easy to use, and it is able to computing SOHS via FSOS on finite abelian groups.
 
 usage:
 
-Compute the SOHS of function on T^n, the main funtion is Fun_SOHS:
+Compute the SOHS of polynomial functions on T^n
 
 Example 1: verify 1-x^10-y^10-z^10>=0 for (x^2+y^2+z^2=1) with  relaxation order 50, Matlab code:
   ```
