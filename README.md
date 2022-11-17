@@ -1,6 +1,6 @@
 # FSOS&SOHS
 
-The new version of computation of FSOS and SOHS, which can compute function on every finite abelian group and easy to use, and it is able to compute SOHS via FSOS on finite abelian groups.
+This is the new version of computation of FSOS and SOHS, which can compute function on every finite abelian group and easy to use, and it is able to compute SOHS via FSOS on finite abelian groups.
 
 usage:
 
