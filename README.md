@@ -1,6 +1,6 @@
 # FSOS&SOHS
 
-The new version of computation of FSOS and SOHS, which can compute function on every finite abelian group and easy to use, and it is able to computing SOHS via FSOS on finite abelian groups.
+The new version of computation of FSOS and SOHS, which can compute function on every finite abelian group and easy to use, and it is able to compute SOHS via FSOS on finite abelian groups.
 
 usage:
 
@@ -13,7 +13,7 @@ Example 1: verify 1-x^10-y^10-z^10>=0 for {(x,y,z):x^2+y^2+z^2=1} with  relaxati
  [Q,Index,SF,SOHS,err]=Fun_SOHS(F,[200,200])
  ```
  
-Example 2: verify Motzkin polynomial is nonnegative on [-2,2]*[-2,2], Matlab code:
+Example 2: verifyx^4*y^2+x^2*y^4-3*x^2*y^2+1 >=0 on [-2,2]*[-2,2], Matlab code:
 ```
  M=@(x,y)x^4*y^2+x^2*y^4-3*x^2*y^2+1;
  F=@(x)M(x(1)+conj(x(1)),x(2)+conj(x(2)));
