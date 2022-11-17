@@ -6,7 +6,7 @@ usage:
 
 Compute the SOHS of polynomial functions on T^n
 
-Example 1: verify 1-x^10-y^10-z^10>=0 for (x^2+y^2+z^2=1) with  relaxation order 50, Matlab code:
+Example 1: verify 1-x^10-y^10-z^10>=0 for {(x,y,z):x^2+y^2+z^2=1} with  relaxation order 50, Matlab code:
   ```
  et3=@(x,y,z)1-x^10-y^10-z^10;
  F=@(x)et3(1/2*(x(1)+conj(x(1))),(-1i)*1/2*(conj(x(1))-x(1))*(1/2)*(x(2)+x(2)'),(-1i)*1/2*(conj(x(1))-x(1))*(-i/2)*(x(2)-x(2)'));
